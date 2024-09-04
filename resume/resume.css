@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Philosopher', sans-serif;
+}
+
+::selection{
+color: #fff;
+background-color: #000;
+}
+
+/* Navbar Coding */
+.navbar{
+  box-shadow: 5px 2px 2px 1px #ccc;
+}
+
+.logo-name{
+letter-spacing: 1px;
+}
+
+.logo-name:hover{
+color: #0D6EFD;
+}
+
+.navbar-toggler{
+  border: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.nav-link{
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 1px;
+display: inline-block;
+position: relative;
+}
+
+.nav-link:hover{
+  color: #031D44;
+}
+
+/* Navbar hover bottom line */
+
+.nav-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #031D44;
+}
+
+.nav-link-fade-up::before {
+  width: 80%;
+  bottom: 5px;
+  opacity: 0;
+}
+
+.nav-link-fade-up:hover::before {
+  bottom: -2px;
+  opacity: 1;
+}
+
+/* Navbar hover bottom line end */
+
+/* Navbar Coding End */
+
+/* Header Coding Start */
+
+/* Resume Coding Start */
+.resume-row{
+  margin-top: 10px;
+}
+
+.resume-img{
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px 1px rgb(128, 128, 128);
+}
+
+/* Resume Coding End */
+
+/* Footer Coding Start */
+
+.footer-container{
+  background-color: rgba(1, 4, 44, 0.9);
+  margin-top: 10px;
+}
+
+.footer-name{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.footer-social-link i{
+ padding: 10px;
+ font-size: 20px;
+ color: #fff;
+}
+
+.footer-social-link .linkedin:hover{
+ color: #0073B2;
+}
+
+.footer-social-link .twitter:hover{
+  color: #000;
+}
+
+.footer-social-link .facebook:hover{
+  color: #0E8FF2;
+}
+
+.footer-social-link .instagram:hover{
+  color: #F70181;
+}
+
+.footer-social-link .youtube:hover{
+  color: #FF0000;
+}
+
+.footer-social-link .github:hover{
+  color: #0D6EFD;
+}
+
+
+/* Footer Coding End */
